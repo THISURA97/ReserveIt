@@ -12,12 +12,15 @@ import android.widget.TextView;
 
 public class Reservations extends AppCompatActivity {
 Button b4,b5;
-TextView t1,t2,t3,t4;
+TextView t1,t2,t3,t4,t5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reservations);
+
+        t5=findViewById(R.id.textView8);
+        t5.setText("Room Details");
 
         t1=findViewById(R.id.textView);
         t1.setText("Room Type");
