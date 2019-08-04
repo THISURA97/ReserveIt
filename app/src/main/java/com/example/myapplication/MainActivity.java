@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void openReservation() {
-        Intent intent = new Intent(this,Reservations.class);
+        Intent intent = new Intent(this, Submission.class);
         startActivity(intent);
     }
 }
