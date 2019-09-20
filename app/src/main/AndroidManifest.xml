@@ -19,8 +19,6 @@
         </activity>
 
 
-        <activity android:name=".DialogSelectPackage" />
-
         <activity android:name=".ActivityPackageViewA" />
         <activity android:name=".ActivityPackageEdit" />
         <activity android:name=".ActivityPackageAdd" />
