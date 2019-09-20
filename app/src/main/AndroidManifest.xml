@@ -9,18 +9,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity_home"></activity>
-        <activity android:name=".activity_admin" />
-        <activity android:name=".Reservation" />
-        <activity android:name=".Confirmation" />
-        <activity android:name=".Submission" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".ActivityAdmin"></activity>
+        <activity android:name=".ActivityHome">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        <activity android:name=".DialogSelectPackage" />
+
+        <activity android:name=".ActivityPackageViewA" />
+        <activity android:name=".ActivityPackageEdit" />
+        <activity android:name=".ActivityPackageAdd" />
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".ActivityPackageViewC" />
+        <activity android:name=".Main1Activity" />
+        <activity android:name=".ActivityVenues" />
+        <activity android:name=".Reservation" />
+        <activity android:name=".Confirmation" />
+        <activity android:name=".Submission" />
+        <activity android:name=".MainActivity" ></activity>
+
+
     </application>
 
 </manifest>
