@@ -30,8 +30,7 @@
         <activity android:name=".ActivityVenues" />
         <activity android:name=".Reservation" />
         <activity android:name=".Confirmation" />
-        <activity android:name=".Submission" />
-        <activity android:name=".MainActivity" ></activity>
+        <activity android:name=".Submission" ></activity>
 
 
     </application>

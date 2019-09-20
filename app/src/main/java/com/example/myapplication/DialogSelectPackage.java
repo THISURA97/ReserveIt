@@ -134,7 +134,7 @@ public class DialogSelectPackage extends AppCompatDialogFragment {
                     }
                     SQLiteHelper helper = new SQLiteHelper(getActivity());
                     SQLiteDatabase database = helper.getWritableDatabase();
-                    database.execSQL("INSERT INTO packagereservation(cus_id,pa_id,ptime,pdate,pmethod,status) VALUES ('" + MainActivity.customer.getId() + "','" + packid + "','" + ptime + "','" + pdate + "','" + pmethod + "',1)");
+                    database.execSQL("INSERT INTO packagereservation(cus_id,pa_id,ptime,pdate,pmethod,status) VALUES ('" + Main1Activity.customer.getId() + "','" + packid + "','" + ptime + "','" + pdate + "','" + pmethod + "',1)");
 
 
                     Cursor cursor = database.rawQuery("SELECT * FROM packagereservation", null);
