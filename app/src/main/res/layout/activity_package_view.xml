@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ActivityPackageViewA">
+    tools:context=".ActivityPackageViewC">
 
     <Spinner
         android:id="@+id/sp_venuea"
@@ -29,6 +29,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sp_venuea"/>
-
+        app:layout_constraintTop_toBottomOf="@+id/sp_venuea" />
 </androidx.constraintlayout.widget.ConstraintLayout>

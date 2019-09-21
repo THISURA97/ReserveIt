@@ -4,62 +4,79 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ActivityHome">
+    android:background="@android:color/background_light"
+    tools:context=".Home">
 
     <Button
-        android:id="@+id/btn_cush"
-        android:layout_width="0dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
-        android:text="@string/customer_home"
-        android:background="#FF9800"
-        app:layout_constraintBottom_toTopOf="@+id/btn_admh"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btn_admh"
-        android:layout_width="0dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="100dp"
-        android:text="@string/admin_home"
-        android:background="#FF9800"
+        android:id="@+id/Event_btn"
+        android:layout_width="170dp"
+        android:layout_height="118dp"
+        android:background="@drawable/button_border"
+        android:cursorVisible="true"
+        android:drawableTop="@drawable/birthday"
+        android:text="@string/Events"
+        android:textColor="#FF9800"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="497dp"
-        android:layout_height="775dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.416"
-        app:srcCompat="@drawable/bb" />
+        app:layout_constraintVertical_bias="0.16" />
 
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:text="@string/hotel_refresh_home"
-        android:textAlignment="center"
-        android:textColor="#000"
-        android:textSize="30sp"
+    <Button
+        android:id="@+id/Reserve_btn"
+        android:layout_width="170dp"
+        android:layout_height="118dp"
+        android:background="@drawable/button_border"
+        android:cursorVisible="true"
+        android:drawableTop="@drawable/calendar"
+        android:text="@string/Reservations"
+        android:textColor="#FF9800"
+
+        android:textSize="18sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.158" />
 
+    <Button
+        android:id="@+id/Travel_btn"
+        android:layout_width="170dp"
+        android:layout_height="118dp"
+        android:background="@drawable/button_border"
+        android:cursorVisible="true"
+        android:drawableTop="@drawable/destination"
+        android:text="@string/Travels"
+        android:textColor="#FF9800"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47" />
+
+    <Button
+        android:id="@+id/Help_btn"
+        android:layout_width="170dp"
+        android:layout_height="118dp"
+        android:background="@drawable/button_border"
+        android:cursorVisible="true"
+        android:drawableTop="@drawable/help"
+        android:text="@string/Help"
+        android:textColor="#FF9800"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47" />
 </androidx.constraintlayout.widget.ConstraintLayout>

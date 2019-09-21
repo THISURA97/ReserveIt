@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="5dp"
-    android:background="@color/cardview_dark_background"
+
     android:ellipsize="marquee"
     android:singleLine="true"
     android:textAllCaps="true"
     android:textSize="15sp"
-    android:textColor="@color/cardview_light_background" />
+    />

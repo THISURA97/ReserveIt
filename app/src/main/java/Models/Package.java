@@ -56,5 +56,3 @@ public class Package {
         this.offer = offer;
     }
 }
-
-

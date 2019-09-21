@@ -76,5 +76,3 @@ public class Venue {
         return status;
     }
 }
-
-

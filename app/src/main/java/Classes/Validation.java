@@ -1,11 +1,12 @@
 package Classes;
 
 public class Validation {
+
     public static boolean isInt(String num){
 
         try {
-            Integer.parseInt(num);
-            return true;
+          Integer.parseInt(num);
+          return true;
         }catch (Exception e){
             return false;
         }
@@ -24,5 +25,3 @@ public class Validation {
     }
 
 }
-
-
