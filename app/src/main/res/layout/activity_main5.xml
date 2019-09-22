@@ -15,8 +15,7 @@
         android:textSize="15sp"
         android:textStyle="italic"
         app:layout_constraintStart_toEndOf="@+id/textView6"
-        app:layout_constraintTop_toTopOf="@+id/textView"
-        android:layout_marginLeft="5dp" />
+        app:layout_constraintTop_toTopOf="@+id/textView" />
 
     <ImageView
         android:id="@+id/img_view_venue"
@@ -45,8 +44,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.188"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_view_venue"
-        android:layout_marginRight="196dp" />
+        app:layout_constraintTop_toBottomOf="@+id/img_view_venue" />
 
     <TextView
 
@@ -64,9 +62,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.157"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="8dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <TextView
         android:id="@+id/txt_vdetails"
@@ -98,9 +94,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.395"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_vdetails"
-        android:layout_marginLeft="40dp"
-        android:layout_marginRight="8dp" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_vdetails" />
 
     <TextView
         android:id="@+id/txt_vocc"
@@ -111,8 +105,7 @@
         android:textSize="15sp"
         android:textStyle="italic"
         app:layout_constraintStart_toEndOf="@+id/textView6"
-        app:layout_constraintTop_toTopOf="@+id/textView6"
-        android:layout_marginLeft="5dp" />
+        app:layout_constraintTop_toTopOf="@+id/textView6" />
 
     <TextView
         android:id="@+id/txt_varea"
@@ -123,8 +116,7 @@
         android:textSize="15sp"
         android:textStyle="italic"
         app:layout_constraintStart_toEndOf="@+id/textView6"
-        app:layout_constraintTop_toTopOf="@+id/textView4"
-        android:layout_marginLeft="5dp" />
+        app:layout_constraintTop_toTopOf="@+id/textView4" />
 
     <TextView
 
@@ -170,8 +162,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.049"
-        android:layout_marginRight="8dp" />
+        app:layout_constraintVertical_bias="0.049" />
 
 
     <TextView
@@ -195,9 +186,9 @@
         android:id="@+id/btn_inqu"
         android:layout_width="145dp"
         android:layout_height="40dp"
-        android:background="@drawable/button_border"
+        android:background="#FF9800"
         android:text="INQUIRE NOW"
-        android:textColor="#FF9800"
+        android:textColor="#ffff"
         android:textSize="14dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -7,6 +7,18 @@
     android:background="#FFFFFF"
     tools:context=".AddR">
 
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="631dp"
+        android:layout_height="740dp"
+        android:background="@drawable/th"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431"
+        android:contentDescription="TODO" />
+
     <TextView
         android:id="@+id/FirstName"
         android:layout_width="wrap_content"
@@ -64,7 +76,8 @@
         app:layout_constraintHorizontal_bias="0.722"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.169" />
+        app:layout_constraintVertical_bias="0.169"
+        android:autofillHints="" tools:targetApi="lollipop"/>
 
     <EditText
         android:id="@+id/editLastNameR"
@@ -207,7 +220,7 @@
         android:id="@+id/editIdR"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="updates and deletes"
+        android:hint="@string/updates_and_deletes"
         android:backgroundTint="@color/colorPrimary"
         android:ems="10"
         android:inputType="textPersonName"
@@ -216,7 +229,8 @@
         app:layout_constraintHorizontal_bias="0.721"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.048" />
+        app:layout_constraintVertical_bias="0.048"
+        android:autofillHints="" tools:targetApi="lollipop" />
 
     <TextView
         android:id="@+id/IdR"

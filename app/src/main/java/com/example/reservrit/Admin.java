@@ -8,29 +8,36 @@ import android.view.View;
 import android.widget.Button;
 
 public class Admin extends AppCompatActivity {
-    Button AddP,EditP;
+    Button AddP, EditP;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin);
 
 
-        AddP.findViewById(R.id.editP);
-        EditP.findViewById(R.id.AddP);
+        EditP = findViewById(R.id.editP);
+        AddP = findViewById(R.id.AddP);
 
         AddP.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Admin.this,ActivityPackageAdd.class);
+                Intent intent = new Intent(Admin.this, ActivityPackageAdd.class);
                 startActivity(intent);
             }
         });
         EditP.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Admin.this,ActivityPackageEdit.class);
+                Intent intent = new Intent(Admin.this, ActivityPackageViewA.class);
                 startActivity(intent);
             }
         });
     }
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(Admin.this, Events.class);
+        startActivity(intent);
+    }
 }
+

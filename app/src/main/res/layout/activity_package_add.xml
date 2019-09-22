@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".ActivityPackageAdd">
 
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="631dp"
+        android:layout_height="740dp"
+        android:background="@drawable/th"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431" />
+
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
@@ -51,7 +62,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:text="@string/hours"
-            android:textColor="#FF9800"
+            android:textColor="#000000"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="@+id/et_hours"
             app:layout_constraintStart_toStartOf="parent"
@@ -64,7 +75,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:text="@string/price"
-            android:textColor="#FF9800"
+            android:textColor="#000000"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="@+id/et_price"
             app:layout_constraintStart_toStartOf="parent"
@@ -77,7 +88,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:text="@string/offer"
-            android:textColor="#FF9800"
+            android:textColor="#000000"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="@+id/et_offer"
             app:layout_constraintStart_toStartOf="parent"

@@ -46,4 +46,10 @@ public class Events extends AppCompatActivity {
         btn_ad = findViewById(R.id.btn_admh);
 
     }
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(Events.this, Home.class);
+        startActivity(intent);
+    }
 }
+

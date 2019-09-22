@@ -10,9 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Admin"></activity>
-        <activity android:name=".AddR" />
-        <activity android:name=".Home">
+
+
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,6 +27,13 @@
         <activity android:name=".Events" />
         <activity android:name=".Main5Activity" />
         <activity android:name=".Main2Activity" />
+        <activity android:name=".Travels" />
+        <activity android:name=".RequestActivity" />
+        <activity android:name=".Admin" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".AddR" />
+        <activity android:name=".Home" />
     </application>
 
 </manifest>
